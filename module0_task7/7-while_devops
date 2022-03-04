@@ -1,0 +1,6 @@
+COUNT=0
+while [ $COUNT -lt 10 ]
+do
+	echo "DevOps"
+	COUNT=`expr $COUNT + 1`
+done
