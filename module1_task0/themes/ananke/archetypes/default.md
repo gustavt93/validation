@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .File.ContentBaseName "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 tags: []
 featured_image: ""
